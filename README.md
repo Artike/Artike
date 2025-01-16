@@ -9,8 +9,7 @@ from telegram import Update
 from telegram.ext import Updater, CommandHandler, CallbackContext
 
 # Ваш токен Telegram бота
-TOKEN = "7889892017:AAENdUzgFZ6jUXRx3M4Zy1e8JvNKMcMqzM8"
-TIKTOK_LINK = "https://www.tiktok.com/@nft.creator.2?_t=ZN-8slhZuya8fe&_r=1"
+"Hi, NFTs Creator PrivatTIKTOK_LINK = "https://www.tiktok.com/@nft.creator.2?_t=ZN-8slhZuya8fe&_r=1"
 
 # Команда /start - приветственное сообщение
 def start(update: Update, context: CallbackContext) -> None:
@@ -71,4 +70,4 @@ def main():
     # Запуск бота
     updater.start_polling()
     updater.idle()
-    #
+    #start
